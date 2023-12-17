@@ -142,6 +142,10 @@ MODEL:
             NMS_POST_MAXSIZE: 500
 
 
+
+PRUNE:
+  MODEL: "/code2/OpenPCDet/ckpts/pointpillar_7728.pth"
+
 OPTIMIZATION:
     BATCH_SIZE_PER_GPU: 4
     NUM_EPOCHS: 80
